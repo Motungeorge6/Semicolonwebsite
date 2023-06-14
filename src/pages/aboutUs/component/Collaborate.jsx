@@ -112,27 +112,33 @@ const Collaborate = () => {
 
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
-                  <li onClick={() => handleOptionSelect("Talent Placement")}>
+                  <li
+                    onMouseDown={() => handleOptionSelect("Talent Placement")}
+                  >
                     Talent Placement
                   </li>
                   <li
-                    onClick={() =>
+                    onMouseDown={() =>
                       handleOptionSelect("Employee Training & Upskilling")
                     }
                   >
                     Employee Training & Upskilling
                   </li>
                   <li
-                    onClick={() =>
+                    onMouseDown={() =>
                       handleOptionSelect("Project Delivery & Outsourcing")
                     }
                   >
                     Project Delivery & Outsourcing
                   </li>
-                  <li onClick={() => handleOptionSelect("Venture Building")}>
+                  <li
+                    onMouseDown={() => handleOptionSelect("Venture Building")}
+                  >
                     Venture Building
                   </li>
-                  <li onClick={() => handleOptionSelect("Others")}>Others</li>
+                  <li onMouseDown={() => handleOptionSelect("Others")}>
+                    Others
+                  </li>
                 </ul>
               )}
             </div>
@@ -149,8 +155,6 @@ const Collaborate = () => {
             type="submit"
             className="submit-button"
             onClick={handleSubmit}
-
-            // backgroundColor: "#FFF2C7",
           >
             Submit
           </button>
