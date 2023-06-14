@@ -18,6 +18,36 @@ const Collaborate = () => {
     setIsDropdownOpen(false);
   };
 
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [description, setDescription] = useState("");
+
+  const handleFullNameChange = (event) => {
+    setFullName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleCompanyChange = (event) => {
+    setCompany(event.target.value);
+  };
+
+  const handleDescriptionChange = (event) => {
+    setDescription(event.target.value);
+  };
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    if (fullName && email && company && description) {
+      alert("Successful!");
+    } else {
+      alert("Unsuccessful. Please fill in all the required fields.");
+    }
+  }
+
   return (
     <div className="collaborate-container">
       <div className="inner-container">
@@ -37,15 +67,26 @@ const Collaborate = () => {
             <input
               type="text"
               placeholder="Full Name"
+              value={fullName}
+              onChange={handleFullNameChange}
               id="fullName"
               name="FullName"
             />
-            <input type="email" placeholder="Email" id="email" name="email" />
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              name="email"
+              value={email}
+              onChange={handleEmailChange}
+            />
           </div>
 
           <div className="form-row">
             <input
               type="text"
+              value={company}
+              onChange={handleCompanyChange}
               placeholder="Company"
               id="company"
               name="company"
@@ -101,10 +142,13 @@ const Collaborate = () => {
             className="form-description"
             id="description"
             name="description"
+            value={description}
+            onChange={handleDescriptionChange}
           ></textarea>
           <button
             type="submit"
             className="submit-button"
+            onClick={handleSubmit}
 
             // backgroundColor: "#FFF2C7",
           >
