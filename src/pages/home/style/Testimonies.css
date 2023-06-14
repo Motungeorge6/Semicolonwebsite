@@ -1,0 +1,51 @@
+.inner-testimony-ctn{
+    width: 1480px;
+    height: 398px;
+    background: #FF5C5C;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.testimony{
+    width: 79%;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight:500;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    
+
+}
+.native{
+    /* margin-top: 5%; */
+    width: 218px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    /* margin-bottom: 2%; */
+}
+
+.line{
+    align-self: stretch;
+    position: relative;
+    width: 1px;
+    height: 211.5px;
+    right: 19px;
+    top: calc(50% - 211.5px/2 - 0.25px);
+    border: 1px solid #FFFFFF;
+}
+.natives-img{
+    position: absolute;
+    margin-top: 20.9%;
+    left: 61.99%;
+
+
+}

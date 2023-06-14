@@ -1,0 +1,31 @@
+.main-ct{
+    padding: 5rem 0;
+    background: #FFFFFF;
+}
+.main-ct p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #191919;
+    margin-bottom: 4%;
+}
+.sub-main-ct{
+    width: 90%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6rem;
+    justify-content: center;
+}
+.sub-main-ct img{
+    height: 80px;
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    mix-blend-mode: multiply;
+}

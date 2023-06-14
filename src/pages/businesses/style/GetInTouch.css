@@ -1,0 +1,85 @@
+.general-cont{
+    display: flex;
+    padding: 6%;
+    justify-content: center;
+    background: #FFFFFF;
+}
+.txt-cont{
+    padding: 10%;
+}
+.txt-p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #38516D;
+}
+
+.main-form-ctn{
+    margin-right: 6%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #FFDDD9;
+
+}
+.form-btn{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF2E2E;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #FF2E2E;
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+.form-ctn form{
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); */
+    gap: 20px;
+}
+.form-ctn textarea{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: inline;
+
+}
+.form-ctn input{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 5%;
+    width: 260px;
+}
+.form-ctn textarea{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 3%;   
+}
+.form-ctn select{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 5%;
+}
+.txt-p2{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+width: 628px;
+
+letter-spacing: -0.02em;
+
+/* Plain Text */
+
+color: #38516D;
+}

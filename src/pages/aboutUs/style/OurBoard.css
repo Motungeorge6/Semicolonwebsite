@@ -1,0 +1,45 @@
+.board-main-ctn {
+  /* padding: 10%; */
+  background-color: #ffffff;
+}
+.board-container .lines {
+  width: 3px;
+  background-color: #ff2e2e;
+  align-self: stretch;
+  position: relative;
+  left: -3px;
+}
+.board-container button {
+  height: 100%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  flex: 1;
+  text-align: left;
+}
+.board-ctn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.board-render {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.terrys {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 4%;
+  row-gap: 4%;
+}
+
+.advisors {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 4%;
+  row-gap: 4%;
+}

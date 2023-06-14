@@ -1,0 +1,67 @@
+.hero-bars{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFEDE0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.sect-bt{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 23px;
+    width: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.sect-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.quantity{
+    
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: -0.02em;
+color: #FF7E1D;
+
+}
+.title-ct{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 121%;
+    color: #FF7E1D;
+}
+.logo-sec{
+    width: 100%;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+}
+.logo-sub-sec p{
+    padding-bottom: 20%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #38516D;
+}

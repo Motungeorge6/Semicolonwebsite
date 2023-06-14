@@ -1,0 +1,25 @@
+.sub-ctn p{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 39px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #38516D;
+padding-top: 5%;
+}
+.main-ctn{
+    background: #FFFAF9;
+    
+}
+.sub-ctn img{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.image-div{
+    
+    display: flex;
+    justify-content: center;
+}

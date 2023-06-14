@@ -1,0 +1,118 @@
+.about-hero-ctn {
+  padding: 8%;
+}
+.about-main-ctn {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding-bottom: 6%;
+  padding-left: 3%;
+  padding-top: 8%;
+  padding-right: 5%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("../../../asset/career/advisors/bg.svg");
+}
+.about-title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.about-txt {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.5%;
+  text-align: center;
+  color: #ffffff;
+  width: 603px;
+}
+
+.about-sub-sec {
+  /* padding: 10%; */
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10%; */
+  gap: 7%;
+}
+
+.about-line {
+  align-self: stretch;
+  position: relative;
+  width: 5px;
+  height: 211.5px;
+  right: 19px;
+  top: calc(50% - 211.5px / 2 - 0.25px);
+  border: 1px solid #ff2e2e;
+  border-top: 0;
+  border-bottom: 0;
+}
+.about-sec-one {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ff2e2e;
+}
+.about-sec-two {
+  padding-top: 25px;
+  width: 389px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.5%;
+  text-align: center;
+  color: #38516d;
+}
+.about-layer-img {
+  position: relative;
+  width: 1112px;
+  height: 500px;
+  left: 200px;
+  /* top: 506px; */
+  top: -100px;
+  align-items: center;
+  justify-content: center;
+}
+.about-sub {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  /* padding-top: 20%; */
+}
+
+.overlay-image {
+  position: relative;
+  top: -100px;
+  left: 25%;
+  width: 50%;
+}
+
+.base-image {
+  left: 20%;
+  position: relative;
+  width: 60%;
+  top: 170px;
+}
+
+.overlay-shadow {
+  top: -150px;
+  left: 25%;
+  position: relative;
+  width: 50%;
+}

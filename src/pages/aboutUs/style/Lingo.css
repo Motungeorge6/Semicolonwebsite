@@ -1,0 +1,76 @@
+.lingo-container {
+  width: 100%;
+  background-color: #fff2c7;
+  height: 100vh;
+}
+
+.inner-lingo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  color: #38516d;
+  font-size: 40px;
+}
+
+.inner-lingo-container h4 {
+  color: #38516d;
+}
+
+.inner-lingo-container span {
+  color: #ff2e2e;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-top: 5%;
+  overflow-x: scroll;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  display: flex;
+  gap: 60px;
+}
+
+.cards {
+  width: 35vw;
+  height: 40vh;
+  box-sizing: border-box;
+  border: 2px solid #ff2e2e;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* .h4 {
+  font-size: medium;
+  color: #ff2e2e;
+} */
+
+/* .slider {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  gap: 60px;
+  transition: transform 0.3s ease;
+} */
